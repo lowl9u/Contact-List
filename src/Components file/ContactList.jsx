@@ -4,6 +4,7 @@ import ContactRow from "./ContactRow";
 
 
 export default function ContactList({setSelectedContactId}) { 
+ //... It says, your coponent logic, Idk what component logic lol needs to be here 
   const [contacts, setContacts] = useState([]);
   
   useEffect(() => {

@@ -1,5 +1,7 @@
 export default function ContactRow({ setSelectedContactId, contact }) {
-    return (
+    //... It says, your coponent logic, Idk what component logic lol needs to be here 
+  
+  return (
       <tr   onClick={() => {
         setSelectedContactId(contact.id);
       }}

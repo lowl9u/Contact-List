@@ -1,3 +1,4 @@
+import SelectedContact from './components/SelectedContact'
 import ContactList from './components/ContactList'
 import './App.css'
 import { useState } from 'react';
